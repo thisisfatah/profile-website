@@ -1,0 +1,56 @@
+:root {
+    --first: #240909;
+    --second: #28171a;
+    --third: #371a2e;
+    --fourth: #342b41;
+    --fifth: #57333f;
+    --sixth: #323764;
+    --seventh: #2a5a51;
+    --eighth: #334591;
+    --nineth: #834848;
+    --tenth: #d73860;
+    --eleventh: #507952;
+    --twelveth: #265ace;
+    --thirteenth: #947a6c;
+    --fourteenth: #c3b570;
+    --fifteenth: #df8ac7;
+    --sixteenth: #eaf4b7;
+}
+
+html,
+body,
+pre,
+code,
+kbd,
+samp {
+    font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin-bottom: 3000px;
+    background-color: var(--sixth);
+}
+
+.navbar{
+    background-color: rgb(57, 66, 77);
+}
+
+li{
+    font-size: small;
+}
+
+.home{
+    padding-top: 4rem;
+}   
+
+.about{
+    padding-top: 4rem;
+}   
+
+.project{
+    padding-top: 4rem;
+}   
+
+.contact{
+    padding-top: 4rem;
+}   
