@@ -26,31 +26,19 @@ samp {
     font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
 }
 
+html{
+    height: 100%;
+}
+
 body{
-    margin-bottom: 3000px;
     background-color: var(--sixth);
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-.navbar{
-    background-color: rgb(57, 66, 77);
+.jumbotron,
+.contact {
+    padding-top: 10rem;
+    /* background-color: var(--eleventh); */
 }
-
-li{
-    font-size: small;
-}
-
-.home{
-    padding-top: 4rem;
-}   
-
-.about{
-    padding-top: 4rem;
-}   
-
-.project{
-    padding-top: 4rem;
-}   
-
-.contact{
-    padding-top: 4rem;
-}   
